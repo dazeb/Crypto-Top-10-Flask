@@ -1,5 +1,3 @@
-#This example uses Python 2.7 and the python-request library.
-
 from requests import Request, Session
 from requests.exceptions import ConnectionError, Timeout, TooManyRedirects
 import json
@@ -17,7 +15,7 @@ class Crypto:
         }
         headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': 'dc728da7-6041-47d8-a0b5-5f42409e5728',
+        'X-CMC_PRO_API_KEY': 'PUT YOUR COINMARKETCAP API KEY HERE',
         }
 
         session = Session()
@@ -37,7 +35,7 @@ class Crypto:
         }
         headers = {
         'Accepts': 'application/json',
-        'X-CMC_PRO_API_KEY': 'dc728da7-6041-47d8-a0b5-5f42409e5728',
+        'X-CMC_PRO_API_KEY': 'PUT YOUR COINMARKETCAP API KEY HERE',
         }
 
         session = Session()
